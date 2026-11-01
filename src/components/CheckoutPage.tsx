@@ -26,7 +26,7 @@ export default function CheckoutPage() {
         <div
           id="promo-banner"
           data-visor-id="visor-el-04"
-          className="relative z-10 mb-4 rounded-lg border border-cyan-500/30 bg-cyan-950/30 p-3 text-cyan-200"
+          className="fixed bottom-3 inset-x-3 z-50 h-16 md:static md:z-10 md:mb-4 md:h-auto rounded-lg border border-cyan-500/30 bg-cyan-950/30 p-3 text-cyan-200"
         >
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-xs font-mono">
             <div className="flex items-center space-x-2">
