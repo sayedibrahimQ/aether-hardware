@@ -3,13 +3,13 @@ import Button from "./ui/Button";
 
 export default function CheckoutPage() {
   return (
-    <div className="min-h-screen bg-[#07080A] text-white flex flex-col justify-start md:justify-center p-3 sm:p-6">
-      <main className="w-full max-w-lg mx-auto py-4 px-3">
+    <div className="min-h-screen bg-[#07080A] text-white flex flex-col justify-start md:justify-center py-3 px-4 sm:p-6">
+      <main className="w-full max-w-lg mx-auto">
         {/* Section 1: Top Navigation Header */}
         <header
           id="storefront-header"
           data-visor-id="visor-el-01"
-          className="flex items-center justify-between pb-2.5 mb-3 border-b border-white/[0.08]"
+          className="flex items-center justify-between pb-2 mb-2 border-b border-white/[0.08]"
         >
           <div className="flex items-center space-x-2">
             <div className="w-2 h-2 rounded-sm bg-[#00E5FF] shadow-[0_0_8px_#00E5FF]" />
@@ -45,7 +45,7 @@ export default function CheckoutPage() {
                 id="get-offer-btn"
                 className="ml-1 px-2 py-0.5 text-[10px] font-mono font-bold uppercase tracking-wider bg-[#00E5FF] hover:bg-[#00c8e0] text-[#07080A] rounded transition-all cursor-pointer shadow-[0_0_10px_rgba(0,229,255,0.25)] active:scale-95 shrink-0"
               >
-                Get Offer now
+                GET OFFER NOW
               </button>
             </div>
           </div>
@@ -55,9 +55,9 @@ export default function CheckoutPage() {
         <div
           id="order-summary-card"
           data-visor-id="visor-el-02"
-          className="rounded-xl bg-[#0E1015] border border-white/[0.08] p-4 shadow-2xl"
+          className="rounded-xl bg-[#0E1015] border border-white/[0.08] p-3.5 shadow-2xl"
         >
-          <div className="flex items-center justify-between pb-2 mb-2 border-b border-white/[0.08]">
+          <div className="flex items-center justify-between pb-1.5 mb-2 border-b border-white/[0.08]">
             <h2 className="font-mono text-[11px] uppercase tracking-widest text-zinc-400">Order Summary</h2>
             <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-white/[0.04] text-zinc-400 border border-white/[0.08]">
               2 ITEMS
@@ -65,10 +65,10 @@ export default function CheckoutPage() {
           </div>
 
           {/* Hardware Items Breakdown */}
-          <div className="space-y-2 pb-2.5 border-b border-white/[0.08]">
+          <div className="space-y-1.5 pb-2 border-b border-white/[0.08]">
             <div className="flex items-start justify-between text-xs">
               <div>
-                <div className="font-semibold text-white">Aether Optic Module v3</div>
+                <div className="font-semibold text-white leading-tight">Aether Optic Module v3</div>
                 <div className="text-[10px] font-mono text-zinc-500">SPEC: 4K 120FPS // QTY: 1</div>
               </div>
               <div className="font-mono text-zinc-200 font-medium">$179.00</div>
@@ -76,7 +76,7 @@ export default function CheckoutPage() {
 
             <div className="flex items-start justify-between text-xs">
               <div>
-                <div className="font-semibold text-white">Carbon Desk Mount</div>
+                <div className="font-semibold text-white leading-tight">Carbon Desk Mount</div>
                 <div className="text-[10px] font-mono text-zinc-500">SPEC: AEROSPACE CNC // QTY: 1</div>
               </div>
               <div className="font-mono text-zinc-200 font-medium">$57.25</div>
@@ -108,7 +108,7 @@ export default function CheckoutPage() {
         <Button
           id="checkout-submit-btn"
           data-visor-id="visor-el-09"
-          className="relative z-10 mt-3 w-full h-14 bg-[#10B981] hover:bg-[#0da371] text-[#07080A] shadow-[0_0_20px_rgba(16,185,129,0.3)] active:scale-[0.99] font-bold text-sm uppercase tracking-wider cursor-pointer flex items-center justify-center rounded-lg"
+          className="relative z-10 mt-3 w-full h-12 bg-[#10B981] hover:bg-[#0da371] text-[#07080A] shadow-[0_0_20px_rgba(16,185,129,0.3)] active:scale-[0.99] font-bold text-sm uppercase tracking-wider cursor-pointer flex items-center justify-center rounded-lg"
         >
           CONFIRM & PAY $189.00
         </Button>
