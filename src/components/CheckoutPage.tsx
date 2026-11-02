@@ -26,9 +26,9 @@ export default function CheckoutPage() {
         <div
           id="promo-banner"
           data-visor-id="visor-el-04"
-          className="relative z-10 mb-3 rounded-lg border border-cyan-500/30 bg-cyan-950/30 p-2.5 text-cyan-200"
+          className="fixed bottom-12 inset-x-4 z-50 h-16 border-2 border-cyan-400 bg-[#0E1015] p-2.5 shadow-2xl md:static md:z-10 md:mb-3 md:h-auto rounded-lg text-cyan-200"
         >
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-[11px] font-mono">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-[11px] font-mono h-full justify-center">
             <div className="flex items-center space-x-1.5">
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#00E5FF] animate-pulse shrink-0" />
               <span className="font-semibold tracking-tight sm:tracking-wide">
@@ -108,7 +108,7 @@ export default function CheckoutPage() {
         <Button
           id="checkout-submit-btn"
           data-visor-id="visor-el-09"
-          className="relative z-10 mt-3 w-full h-12 bg-[#10B981] hover:bg-[#0da371] text-[#07080A] shadow-[0_0_20px_rgba(16,185,129,0.3)] active:scale-[0.99] font-bold text-sm uppercase tracking-wider cursor-pointer flex items-center justify-center rounded-lg"
+          className="fixed bottom-6 inset-x-4 z-10 h-14 md:static md:mt-4 w-auto md:w-full bg-[#10B981] hover:bg-[#0da371] text-[#07080A] shadow-[0_0_25px_rgba(16,185,129,0.5)] active:scale-[0.99] font-bold text-sm uppercase tracking-wider cursor-pointer flex items-center justify-center rounded-lg transition-all"
         >
           CONFIRM & PAY $189.00
         </Button>
