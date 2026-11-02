@@ -40,6 +40,13 @@ export default function CheckoutPage() {
                 AETHER20
               </span>
               <span className="text-[#10B981] font-bold">-$47.25</span>
+              <button
+                type="button"
+                id="get-offer-btn"
+                className="ml-1 px-2.5 py-1 text-[11px] font-mono font-bold uppercase tracking-wider bg-[#00E5FF] hover:bg-[#00c8e0] text-[#07080A] rounded transition-all cursor-pointer shadow-[0_0_10px_rgba(0,229,255,0.25)] active:scale-95 shrink-0"
+              >
+                Get Offer now
+              </button>
             </div>
           </div>
         </div>
