@@ -4,7 +4,7 @@ import Button from "./ui/Button";
 export default function CheckoutPage() {
   return (
     <div className="min-h-screen bg-[#07080A] text-white flex flex-col justify-start md:justify-center py-3 px-4 sm:p-6">
-      <main className="w-full max-w-lg mx-auto">
+      <main className="w-full max-w-lg mx-auto pb-40 md:pb-0">
         {/* Section 1: Top Navigation Header */}
         <header
           id="storefront-header"
@@ -26,7 +26,7 @@ export default function CheckoutPage() {
         <div
           id="promo-banner"
           data-visor-id="visor-el-04"
-          className="fixed bottom-10 inset-x-4 z-50 h-16 md:static md:z-10 md:mb-3 md:h-auto rounded-lg border-2 border-cyan-400 bg-[#0E1015] p-2.5 text-cyan-200 shadow-2xl"
+          className="fixed bottom-20 inset-x-4 z-50 h-16 md:static md:z-10 md:mb-3 md:h-auto rounded-lg border-2 border-cyan-400 bg-[#0E1015] p-2.5 text-cyan-200 shadow-2xl"
         >
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-[11px] font-mono h-full justify-center">
             <div className="flex items-center space-x-1.5">
